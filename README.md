@@ -1,4 +1,5 @@
-# Blynk-Flow-Sensor-Water-Meter
+# Blynk Flow Sensor Water Meter
+
 Blynk flow sensor water meter to measure water consumption. 
 
 <h2> Screenshot</h2>
