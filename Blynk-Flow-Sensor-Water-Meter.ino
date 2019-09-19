@@ -1,23 +1,14 @@
 /*
 
+  Blynk Flow Sensor Water Meter- Calculates Total Water Consumption.
 
-  Flow Sensor - Calculates water consumption
-
-  Flow Sensor to NodeMcu connection
-
-  Yellow Wire (signal pin) to Nodemcu D2 Pin
-  Red Wire to Nodemcu 3.3V pin
-  Black Wire to Nodemcu Gnd pin
-
- 
+  Source: https://github.com/pkarun/Blynk-Flow-Sensor-Water-Meter
 
 */
 
 
-#include "settings.h"
-
-//#include "my_settings.h" //My personal settings
-
+#include "settings.h" //Make sure you UNCOMMENT this before you use. 
+//#include "my_settings.h" //This is my personal settings. You can remove this line or COMMENT it when you are using.
 
 #define BLYNK_PRINT Serial    // Comment this out to disable prints and save space
 #include <ESP8266WiFi.h>
@@ -30,7 +21,6 @@
 BlynkTimer timer;
 
 volatile long pulseCount = 0;
-
 float flowRate;
 unsigned int flowMilliLitres;
 unsigned long totalMilliLitres;
