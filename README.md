@@ -4,8 +4,8 @@ Blynk flow sensor water meter to measure total water consumption.
 
 <h2> Requirements</h2>
 1) Blynk App <br>
-2) Water Flow Sensor (I used <a href="images/water-flow-sensor-yf-s201b-product.jpg"> YF-S201B</a>)<br>
-3) <a href="images/nodemcu-product.jpg">NodeMCU </a> <br>
+2) Water Flow Sensor (I used <a href="images/water-flow-sensor-yf-s201b-product.jpg" target="_blank"> YF-S201B</a>)<br>
+3) <a href="images/nodemcu-product.jpg" target="_blank">NodeMCU </a> <br>
 
 <h2> Installation </h2>
 
@@ -16,8 +16,8 @@ Open settings.h and change Bynk Auth code, Wifi settings, server settings and fl
 <img src="images/nodemcu-to-water-flow-sensor-connection.png" width="400" height=" " alt="NodeMCU to Water Flow Sensor Connection" title="NodeMCU to Water Flow Sensor Connection">
 <br>
 <br>
-<b>Flow Sensor to NodeMCU</b>
-
+<h3>Flow Sensor to NodeMCU</h3>
+<br>
 Yellow Wire (Signal Pin) to NodeMCU D2 Pin <br>
 Red Wire to NodeMCU 3.3V Pin<br>
 Black Wire to NodeMCU Gnd Pin<br>
