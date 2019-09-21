@@ -3,9 +3,9 @@
 Blynk flow sensor water meter to measure total water consumption. 
 
 <h2> Requirements</h2>
-1) Blynk App <br>
-2) Water Flow Sensor (I used <a href="images/water-flow-sensor-yf-s201b-product.jpg" target="_blank"> YF-S201B</a>)<br>
-3) <a href="images/nodemcu-product.jpg" target="_blank">NodeMCU </a> <br>
+1) <a href="https://play.google.com/store/apps/details?id=cc.blynk">Blynk App </a><br>
+2) <a href="http://s.click.aliexpress.com/e/C3b7ETAo">Water Flow Sensor (I used YF-S201B) </a><br>
+3) <a href="http://s.click.aliexpress.com/e/nlefJ4PI" target="_blank">NodeMCU </a> <br>
 
 <h2> Installation </h2>
 
